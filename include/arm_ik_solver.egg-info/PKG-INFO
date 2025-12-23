@@ -1,0 +1,21 @@
+Metadata-Version: 2.4
+Name: arm-ik-solver
+Version: 0.1.0
+Summary: Stateless inverse kinematics solver using Pinocchio
+Author: Your Name
+Author-email: your.email@example.com
+Requires-Python: >=3.8
+Requires-Dist: numpy>=1.20.0
+Requires-Dist: osqp>=0.6.0
+Requires-Dist: scipy>=1.7.0
+Requires-Dist: typing-extensions>=4.0.0
+Provides-Extra: dev
+Requires-Dist: pytest>=7.0.0; extra == "dev"
+Requires-Dist: black>=22.0.0; extra == "dev"
+Requires-Dist: mypy>=0.950; extra == "dev"
+Dynamic: author
+Dynamic: author-email
+Dynamic: provides-extra
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
